@@ -40,16 +40,4 @@ class Greeter
 
   	end
 
-
-  	# def sendPhoto
-  	# 	 images = ["img/1-food.png", "img/2-food.png","img/3-food.png","img/4-food.png"]
-
-  	# 	 send_file images.
-  	# 	 "Hereytt"
-  	# end
-
-
-
-
-
 end

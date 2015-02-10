@@ -32,13 +32,6 @@ get '/quote/:tag' do
 end
 
 
-# get '/photo' do
-# 	random = rand(1...4)
-#   	# send_file "public/#{random}.jpg"
-#   	send_file "public/4.jpg"
-
-# end
-
 get '/photo' do
   random = rand(1...4)
   send_file "public/#{random}.jpeg"
@@ -51,19 +44,3 @@ get '/quote' do
 end
 
 
-
-
-
-
-
-
-
-
-
-
-
-# @greeter.sendPhoto
-	# images = ["img/1-food.png","img/3-food.png","img/4-food.png"]
-	# send_file "img/3-food.png"
-	# send_file images.sample
-  	# send_file "public/#{rand(1..4)}.png"
